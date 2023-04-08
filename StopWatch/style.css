@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    background-color: slategrey;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.stopwatch {
+    background-color: darkcyan;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+.timer {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    background: none;
+    border: none;
+    background-color: var(--clr);
+    padding: 10px 24px;
+    margin-inline: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
